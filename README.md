@@ -190,7 +190,7 @@ You should see:
    - Weather: http://localhost:3000/api/weather/:city
    - News:    http://localhost:3000/api/news/:city
    - Dashboard: http://localhost:3000/api/dashboard/:city
-   -Status: http://localhost:3000/health
+   - Status: http://localhost:3000/health
 📝 Documentation: http://localhost:3000/
 ==================================================
 ✅ Server is ready to accept requests
