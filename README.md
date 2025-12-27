@@ -8,16 +8,16 @@ A full-stack web application that integrates OpenWeather API and News API to pro
 
 ## 📋 Table of Contents
 
-- [Features]
-- [Technologies Used]
-- [Assignment Requirements Checklist]
-- [Installation & Setup]
-- [API Documentation]
-- [Project Structure]
-- [Design Decisions]
-- [Screenshots]
-- [Testing]
-- [Author]
+- Features
+- Technologies Used
+- Assignment Requirements Checklist
+- Installation & Setup
+- API Documentation
+- Project Structure
+- Design Decisions
+- Screenshots
+- Testing
+- Author
 
 ---
 
@@ -117,7 +117,7 @@ Before you begin, ensure you have:
 
 ```bash
 # If using Git
-git clone <repository-url>
+git clone <https://github.com/alisherabushemenov1/Backend_2ass>
 cd weather-dashboard-api
 
 # Or download and extract the ZIP file
@@ -149,8 +149,8 @@ Edit `.env` and add your API keys:
 
 ```env
 PORT=3000
-OPENWEATHER_API_KEY=your_openweather_api_key_here
-NEWS_API_KEY=your_news_api_key_here
+OPENWEATHER_API_KEY=c17aea0e44cd3f74a07ec5c7a71b7828
+NEWS_API_KEY=a5dde7dae47c4d02ad72ed1612e4e06c
 ```
 
 **How to get API keys:**
@@ -190,6 +190,7 @@ You should see:
    - Weather: http://localhost:3000/api/weather/:city
    - News:    http://localhost:3000/api/news/:city
    - Dashboard: http://localhost:3000/api/dashboard/:city
+   -Status: http://localhost:3000/health
 📝 Documentation: http://localhost:3000/
 ==================================================
 ✅ Server is ready to accept requests
