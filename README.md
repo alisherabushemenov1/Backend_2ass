@@ -139,8 +139,8 @@ This will install:
 Create a `.env` file in the root directory:
 
 ```bash
-# Copy the example file
-cp .env.example .env
+
+cp .env
 ```
 
 Edit `.env` and add your API keys:
