@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard - Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🌤️ Weather Dashboard</h1>
+            <p>Real-time weather and news information</p>
+        </header>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <input 
+                type="text" 
+                id="cityInput" 
+                placeholder="Enter city name (e.g., London, Paris, Tokyo)..."
+                class="search-input"
+            >
+            <button id="searchBtn" class="search-btn">
+                🔍 Search
+            </button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading data...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error" class="error hidden"></div>
+
+        <!-- Weather Section -->
+        <div id="weatherSection" class="weather-section hidden">
+            <h2>Weather Information</h2>
+            <div class="weather-card">
+                <div class="weather-main">
+                    <div class="weather-icon" id="weatherIcon">☀️</div>
+                    <div class="weather-temp">
+                        <div class="temp-value" id="temperature">--</div>
+                        <div class="temp-unit">°C</div>
+                    </div>
+                    <div class="weather-info">
+                        <h3 id="cityName">--</h3>
+                        <p id="description" class="description">--</p>
+                        <p id="countryCode" class="country">--</p>
+                    </div>
+                </div>
+                
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <span class="detail-label">🌡️ Feels Like</span>
+                        <span class="detail-value" id="feelsLike">--°C</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">💨 Wind Speed</span>
+                        <span class="detail-value" id="windSpeed">-- m/s</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">💧 Humidity</span>
+                        <span class="detail-value" id="humidity">--%</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">🌧️ Rain (3h)</span>
+                        <span class="detail-value" id="rainVolume">-- mm</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">📍 Coordinates</span>
+                        <span class="detail-value" id="coordinates">--, --</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">🎈 Pressure</span>
+                        <span class="detail-value" id="pressure">-- hPa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Section -->
+        <div id="newsSection" class="news-section hidden">
+            <h2>📰 Latest News</h2>
+            <div id="newsContainer" class="news-container"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Assignment 2: Backend API Integration & Service Development</p>
+            <p>Powered by OpenWeather API & News API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
