@@ -119,8 +119,6 @@ Before you begin, ensure you have:
 # If using Git
 git clone <https://github.com/alisherabushemenov1/Backend_2ass>
 cd weather-dashboard-api
-
-# Or download and extract the ZIP file
 ```
 
 #### 2. Install Dependencies
