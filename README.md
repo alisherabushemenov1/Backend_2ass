@@ -8,16 +8,16 @@ A full-stack web application that integrates OpenWeather API and News API to pro
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Assignment Requirements Checklist](#assignment-requirements-checklist)
-- [Installation & Setup](#installation--setup)
-- [API Documentation](#api-documentation)
-- [Project Structure](#project-structure)
-- [Design Decisions](#design-decisions)
-- [Screenshots](#screenshots)
-- [Testing](#testing)
-- [Author](#author)
+- [Features]
+- [Technologies Used]
+- [Assignment Requirements Checklist]
+- [Installation & Setup]
+- [API Documentation]
+- [Project Structure]
+- [Design Decisions]
+- [Screenshots]
+- [Testing]
+- [Author]
 
 ---
 
