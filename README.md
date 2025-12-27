@@ -395,7 +395,6 @@ weather-dashboard-api/
 ├── server.js              # Main Express server (Backend)
 ├── package.json           # Dependencies and scripts
 ├── .env                   # Environment variables (API keys)
-├── .env.example           # Environment variables template
 ├── .gitignore            # Git ignore file
 ├── README.md             # This documentation file
 │
