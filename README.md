@@ -171,10 +171,7 @@ NEWS_API_KEY=a5dde7dae47c4d02ad72ed1612e4e06c
 
 ```bash
 # Production mode
-npm start
-
-# Development mode (auto-restart on changes)
-npm run dev
+node server.js
 ```
 
 You should see:
