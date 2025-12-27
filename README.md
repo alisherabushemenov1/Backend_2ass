@@ -170,7 +170,6 @@ NEWS_API_KEY=a5dde7dae47c4d02ad72ed1612e4e06c
 #### 4. Start the Server
 
 ```bash
-# Production mode
 node server.js
 ```
 
