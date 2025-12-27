@@ -17,7 +17,7 @@ A full-stack web application that integrates OpenWeather API and News API to pro
 - Design Decisions
 - Screenshots
 - Testing
-- Author
+
 
 ---
 
