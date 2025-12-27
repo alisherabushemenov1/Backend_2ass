@@ -140,7 +140,7 @@ Create a `.env` file in the root directory:
 
 ```bash
 
-cp .env
+touch .env
 ```
 
 Edit `.env` and add your API keys:
