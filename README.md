@@ -132,7 +132,7 @@ This will install:
 - cors
 - axios
 - dotenv
-- nodemon (dev dependency)
+
 
 #### 3. Configure Environment Variables
 
